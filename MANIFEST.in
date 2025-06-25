@@ -1,0 +1,16 @@
+include README.md
+include requirements.txt
+include *.jpeg
+include *.jpg
+include *.png
+include *.spec
+recursive-include Tesseract-OCR *
+recursive-include config *
+recursive-include data *
+recursive-exclude * __pycache__
+recursive-exclude * *.pyc
+recursive-exclude * *.pyo
+recursive-exclude * *.pyd
+recursive-exclude venv *
+recursive-exclude logs *
+exclude *.env 
