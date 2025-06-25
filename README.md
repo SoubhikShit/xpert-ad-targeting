@@ -4,18 +4,29 @@ Automated POS monitoring and OCR processing application.
 
 ## Installation
 
-### Option 1: Install from PyPI (Recommended)
+### Option 1: Install from GitHub (Recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/xpert-ad-targeting.git
+cd xpert-ad-targeting
+
+# Install the package
+pip install -e .
+```
+
+### Option 2: Install from PyPI (When Available)
 
 ```bash
 pip install xpert-ad-targeting
 ```
 
-### Option 2: Install in Development Mode
+### Option 3: Install in Development Mode
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd Project_Xpert
+git clone https://github.com/YOUR_USERNAME/xpert-ad-targeting.git
+cd xpert-ad-targeting
 
 # Install the package in development mode
 python install.py
@@ -145,6 +156,27 @@ app.window.mainloop()
   - scikit-image
   - scipy
 
+## Quick Start Guide
+
+1. **Install the package:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/xpert-ad-targeting.git
+   cd xpert-ad-targeting
+   pip install -e .
+   ```
+
+2. **Set up environment:**
+   ```bash
+   python setup_env.py
+   ```
+
+3. **Edit the `.env` file** with your credentials
+
+4. **Run the application:**
+   ```bash
+   xpert-ad-targeting
+   ```
+
 ## Development
 
 ### Project Structure
@@ -185,6 +217,14 @@ pip install dist/xpert-ad-targeting-1.0.0.tar.gz
 - **Credentials**: Always use environment variables for API keys and database connections
 - **Example Configuration**: Use `env.example` as a template for your configuration
 - **Setup Script**: Use `setup_env.py` for guided environment configuration
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## Support
 
